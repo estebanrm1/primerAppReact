@@ -1,9 +1,9 @@
 const Lista = () => {
     return (
-        <ul>
-            <li>Centro de salud</li>
-            <li>Paquete de vuelo</li>
-            <li>Servicio de entrenamiento</li>
+        <ul className="list-group">
+            <li className="list-group-item">Centro de salud</li>
+            <li className="list-group-item">Paquete de vuelo</li>
+            <li className="list-group-item">Servicio de entrenamiento</li>
         </ul>
     );
 };
