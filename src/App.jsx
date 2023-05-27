@@ -10,8 +10,8 @@ function App() {
     //Puedo escribir algo de logica
     <>
       {/* Esto es un comentario del html */}
+        <Titulos nuevoTitulo='Este titulo fue creado con props' estado={true} ></Titulos>
       <section className='container'>
-        <Titulos></Titulos>
         <h3>Servicios:</h3>
         <hr/>
         <Lista />
